@@ -70,3 +70,34 @@ body {
     font-size: 1.2rem;
   }
   
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .actions button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  #clear-all {
+    background-color: #f39c12;
+  }
+  
+  @media print {
+    form, .actions, .remove-btn {
+      display: none !important;
+    }
+    body {
+      background: white;
+    }
+    .container {
+      box-shadow: none;
+    }
+  }
+  
