@@ -88,6 +88,10 @@ body {
   #clear-all {
     background-color: #f39c12;
   }
+
+  #print{
+    background-color: cadetblue;
+  }
   
   @media print {
     form, .actions, .remove-btn {
